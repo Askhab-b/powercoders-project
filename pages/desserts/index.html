@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dessert Constructor</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../../assets/styles/reset.css" />
+    <link rel="stylesheet" href="../../assets/styles/global.css" />
+    <link rel="stylesheet" href="../../assets/styles/navigation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header animate__animated animate__fadeIn">
+      <div class="navigation-main">
+        <h1>Delicious Recipes</h1>
+        <p>Your guide to tasty dishes</p>
+      </div>
+      <nav class="navigation-second">
+        <ul>
+          <li><a href="/../index.html">Home</a></li>
+          <li><a href="../menu/index.html">Menu</a></li>
+          <li><a href="index.html">Desserts</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="constructor animate__animated animate__fadeInUp">
+        <div class="constructor-step">
+          <h2>Step 1: Choose a Base</h2>
+          <select id="base-select" onchange="updatePreview()">
+            <option value="none">Select a base</option>
+            <option value="Cake Base">Cake Base</option>
+            <option value="Waffle Base">Waffle Base</option>
+            <option value="Cookie Base">Cookie Base</option>
+          </select>
+        </div>
+
+        <div class="constructor-step">
+          <h2>Step 2: Choose a Filling</h2>
+          <select id="filling-select" onchange="updatePreview()">
+            <option value="none">Select a filling</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Vanilla">Vanilla</option>
+            <option value="Fruit">Fruit</option>
+          </select>
+        </div>
+
+        <div class="constructor-step">
+          <h2>Step 3: Choose a Topping</h2>
+          <select id="topping-select" onchange="updatePreview()">
+            <option value="none">Select a topping</option>
+            <option value="Whipped Cream">Whipped Cream</option>
+            <option value="Nuts">Nuts</option>
+            <option value="Berries">Berries</option>
+          </select>
+        </div>
+
+        <div class="constructor-step">
+          <h2>Step 4: Add a Sauce</h2>
+          <select id="sauce-select" onchange="updatePreview()">
+            <option value="none">Select a sauce</option>
+            <option value="Chocolate Sauce">Chocolate Sauce</option>
+            <option value="Caramel Sauce">Caramel Sauce</option>
+            <option value="Strawberry Sauce">Strawberry Sauce</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="summary animate__animated animate__fadeInUp">
+        <h2>Your Custom Dessert</h2>
+        <p>Visualize your masterpiece below!</p>
+        <div class="dessert-preview" id="dessert-preview">
+          <p>Your dessert will appear here as you select options.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Recipe Website</p>
+      <a href="https://github.com/Askhab-b" target="_blank" class="github-icon">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

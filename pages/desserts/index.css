@@ -1,0 +1,62 @@
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.constructor-step {
+  margin-bottom: 30px;
+  min-width: 600px;
+}
+
+.constructor-step h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+select:focus {
+  border-color: #ff6f61;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.summary {
+  text-align: center;
+  background-color: #fef2e6;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dessert-preview {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 2px dashed #ff6f61;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.dessert-preview p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .constructor-step {
+    min-width: 100%;
+    width: 70%;
+  }
+}
