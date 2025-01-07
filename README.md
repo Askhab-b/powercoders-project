@@ -65,14 +65,6 @@ You can customize the website by modifying the following:
 - Styles: Adjust CSS properties in the corresponding files in the assets/styles folder.
 - Navigation Links: Add new pages or adjust links in the navigation menu.
 
-## Screenshots
-
-### Homepage
-![Homepage Screenshot](./assets/images/screenshots/homepage.png)
-
-### Recipe Cards
-![Recipe Cards Screenshot](./assets/images/screenshots/recipe-cards.png)
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -81,4 +73,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Askhab-b - [GitHub Profile](https://github.com/Askhab-b)
 
----
+
