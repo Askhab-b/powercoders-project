@@ -21,6 +21,8 @@ The **Recipe Website** is a user-friendly platform showcasing a variety of delic
 - **Animate.css**: For pre-defined animation effects.
 
 ## Project Structure
+
+```text
 project/
 ├── index.html                     # Main HTML file
 ├── assets/
@@ -37,6 +39,7 @@ project/
 │   └── contact/index.html         # Placeholder for the contact page
 ├── README.md                      # Documentation for the project
 └── LICENSE                        # License file (if applicable)
+```
 ## How to Use
 
 1. Clone the repository:
